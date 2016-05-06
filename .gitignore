@@ -124,8 +124,9 @@ Deploy/
 # allow? flat files for this project i.e. icns
 # change as needed
 
-#*.icns
-*.png
+*.icns
+# allow png here
+#*.png
 *.jpeg
 *.jpg
 *.tiff

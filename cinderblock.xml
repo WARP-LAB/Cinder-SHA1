@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="SHA1++"
+	id="lv.warp.cinder-sha1++"
+    git="git@github.com:WARP-LAB/Cinder-SHA1.git"
+	author="Steve Reid <steve@edmweb.com>, Bruce Guenter <bruce@untroubled.org>, Volker Grabsch <vog@notjusthosting.com>, Reinis Adovics <code@kroko.me>"
+	license="100% public domain"
+	summary="Cinder block, that has no dependancies, for simple SHA1 hashing."
+	version="1.00"
+    url="https://github.com/WARP-LAB/Cinder-SHA1"
+	>
+    <supports os="msw" />
+    <supports os="macosx" />
+    <includePath>src</includePath>
+    <source>src/sha1.cpp</source>
+    <header>src/sha1.h</header>
+	<platform os="macosx">
+
+	</platform>
+	<platform os="msw">
+
+	</platform>
+	<platform os="ios" sdk="device">
+
+	</platform>
+	<platform os="ios" sdk="simulator">
+
+	</platform>
+</block>
+</cinder>
