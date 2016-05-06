@@ -4,12 +4,11 @@ Cinder-SHA1
 
 ###About
 
-Cinder block that has no dependancies for simple SHA1 hashing.
+Cinder block, that has no dependancies, for simple SHA1 hashing.
 
 
 ###Todo
 
-* wrap into namespace
 * add exception throwing on any errors (especially when trying to checksum non existing file)
 
 *Cinder comes with Boost which has `boost::uuids::detail::sha1` in `boost/uuid/sha1.hpp` and of course it works, but we find this small helper class more attractive for quick checksumming files downloaded from interwebs.*

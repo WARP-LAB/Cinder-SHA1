@@ -22,6 +22,7 @@
 #include <iostream>
 #include <string>
 
+namespace warp {
 
 class SHA1
 {
@@ -51,5 +52,6 @@ private:
     static void read(std::istream &is, std::string &s, int max);
 };
 
+} // namespace warp
 
 #endif /* SHA1_HPP */

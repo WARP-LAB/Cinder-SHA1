@@ -20,6 +20,7 @@
 #include <iomanip>
 #include <fstream>
 
+namespace warp {
 
 SHA1::SHA1()
 {
@@ -260,3 +261,5 @@ void SHA1::read(std::istream &is, std::string &s, int max)
     is.read(sbuf, max);
     s.assign(sbuf, is.gcount());
 }
+
+} // namespace warp
